@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body.landing {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 768px;
+  font-family: 'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FAFAFA;
+}
+
+body.landing * {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
